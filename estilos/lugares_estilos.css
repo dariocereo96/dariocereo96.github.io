@@ -1,0 +1,21 @@
+.main{
+	padding: 20px;
+}
+/*---------------ESTILOS DE LAS IMAGENES------------*/
+.main img{
+	border-radius: 9px;
+	box-shadow: 0 0 4px #000;
+	max-height: 200px;
+	
+}
+
+table td{
+	padding: 30px;
+}
+/*-------------ESTILOS DEL TITULO-----------*/
+.main h1{
+	color: #50C0FF;
+	text-align: center;
+	width: 100%;
+	font-size: 1.7em;
+}

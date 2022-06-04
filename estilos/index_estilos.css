@@ -1,0 +1,183 @@
+/*------------Estilos de la seccion bienvenidos---------*/
+.main{
+	padding: 0 20px 20px 20px;
+}
+.bienvenidos{
+	width: 100%;
+}
+
+/*-------------Estilos de los titulos y texto-----------*/
+.seccion_titulo{
+	text-align: center;
+	color: #fff;
+	font-size: 1.25em;
+	margin-bottom: 10px;
+	background: #3CA4C7;
+	padding: 3px;
+	border-radius: 6px;
+	box-shadow: 2px 2px 4px #000;
+	letter-spacing: 1px;
+}
+.seccion_txt{
+	font-size: 1.05em;
+	letter-spacing: 1px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+/*--------------Estilos de la seccion servicios----------*/
+.servicios{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 100%;
+}
+.servicio_titulo{
+	text-align: center;
+	font-size: 1.1em;
+	color: #50C0FF;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.item_servicios{
+	width: 23%;
+}
+.item_servicios img{
+	height: 100%;
+	box-shadow: 0px 0px 7px #000;
+    max-height: 160px;
+    border-radius: 8px;
+}
+
+/*-----------------Estilos de la seccion informacion--------------*/
+.informacion{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.info_item{
+	width: 32%;
+}
+.informacion p{
+	margin-bottom: 8px;
+	border-radius: 10px;
+	padding: 0 5px;
+	text-align: justify;
+}
+
+/*------------Estilos de la seccion eventos----------*/
+.eventos{
+	width: 58%;
+}
+.eventos_tipos{
+	display: flex;
+	margin-top: 10px;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0px 0px 5px #000;
+	background: #BAE2FF;
+}
+.menu_eventos{
+	width: 64%;
+}
+.menu_eventos li{
+    color: #000;
+    text-align: center;
+   	letter-spacing: 1px;
+   	margin-top: 3px;
+}
+.img_menu{
+	width: 36%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.img_menu img{
+	height: 100%;
+	
+}
+
+/*-----------Estilos de la seccion contactos--------*/
+.contactos{
+	width: 40%;
+}
+#frm_contacto{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 5px #000;
+	padding: 10px 14px;
+}
+.frm_item{
+	margin-top: 7px;
+	width: 46%;
+}
+.frm_item label{
+	display: block;
+	text-align: left;
+	color: #50C0FF;
+	margin-bottom: 3px;
+}
+.cajatxt{
+	display: block;
+	font-size: 0.90em;
+	font-family: "arial";
+	width: 100%;
+	padding: 3px;
+	border-radius: 3px;
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc,
+				0 10px 15px #eee inset;
+	}
+.cajatxt:focus{
+	background: #fff;
+    box-shadow: none;
+}
+#btn_enviar{
+	width: 120px; 
+	padding: 8px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/*-----------------Estilos de la seccion integrantes------------------*/
+.integrantes_grupo{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.integrantes_grupo>h1{
+	width: 100%;
+}
+.integrante{
+	width: 31%;
+	padding: 5px 10px;
+	text-align: center;
+	box-shadow: 0 0 5px #000;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.integrante img{
+	max-width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	box-shadow: 0 0 5px #000;
+}
+.info_grupo{
+	width: 70%;
+}
+.info_grupo h1{
+	color: #50C0FF;
+	margin-bottom: 5px;
+}
+
+
